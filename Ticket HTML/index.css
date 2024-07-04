@@ -1,0 +1,74 @@
+.desktop {
+    background-color: #0a075f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #0a075f;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.desktop .group {
+    position: absolute;
+    width: 465px;
+    height: 152px;
+    top: 651px;
+    left: 503px;
+}
+
+.desktop .overlap-group {
+    position: relative;
+    width: 463px;
+    height: 152px;
+    background-color: #f5167e;
+    border-radius: 50px;
+    box-shadow: 0px 10px 50px #3c36f140;
+}
+
+.desktop .text-wrapper {
+    position: absolute;
+    width: 231px;
+    top: 52px;
+    left: 115px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .place {
+    position: absolute;
+    width: 442px;
+    height: 431px;
+    top: 220px;
+    left: 618px;
+}
+
+.desktop .text-wrapper-2 {
+    position: absolute;
+    width: 419px;
+    top: 300px;
+    left: 21px;
+    font-family: "Advent Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .ticket {
+    position: absolute;
+    width: 215px;
+    height: 215px;
+    top: 0;
+    left: 0;
+}
